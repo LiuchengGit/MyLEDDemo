@@ -59,7 +59,6 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.cb_led1:
                     if (checked) {
                         showToast("cb_led1 on");
-                        showToast("cb_led1 on");
                     } else {
                         showToast("cb_led1 off");
                     }
