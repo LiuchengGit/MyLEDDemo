@@ -15,28 +15,37 @@
         android:layout_height="wrap_content"
         android:text="Hello World!" />
     <Button
+        android:id="@+id/btn_ledall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="all on"
         />
     <CheckBox
+        android:id="@+id/cb_led1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LED1"
+        android:onClick="oncheckbox"
         />
     <CheckBox
+        android:id="@+id/cb_led2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LED2"
+        android:onClick="oncheckbox"
         />
     <CheckBox
+        android:id="@+id/cb_led3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LED3"
+        android:onClick="oncheckbox"
         />
     <CheckBox
+        android:id="@+id/cb_led4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LED4"
+        android:onClick="oncheckbox"
         />
 </LinearLayout>
